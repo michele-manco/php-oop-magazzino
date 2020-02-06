@@ -51,6 +51,13 @@ class Tastiera extends Prodotto{
   public $materiali;
   public $display;
 
+  // public function __construct($price, $name, $keys,$materials, $displaynum){
+  //    parent::__construct($price, $name);
+  //    $this->tasti = $keys;
+  //    $this->materiali = $materials;:
+  //    $this->display = $displaynum;
+  // }
+
 }
 
 $prodotto1 = new Prodotto('strum001','1000€', 'Chitarra' );
